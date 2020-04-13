@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="54.329">
+<testcase classname="Pet Store Website" name="Login to the Pet Store website with valid credentials" time="13.506">
+<system-out><![CDATA[Given the user launches the browser.........................................passed
+When the user open PetStore HomePage using the link.........................passed
+And the user enters valid "test" and "test".................................passed
+Then the user clicks on login button........................................passed
+Then the user lands on the Welcome page.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Pet Store Website" name="Login to the Pet Store website with valid credentials 2" time="9.315">
+<system-out><![CDATA[Given the user launches the browser.........................................passed
+When the user open PetStore HomePage using the link.........................passed
+And the user enters valid "test1" and "test1"...............................passed
+Then the user clicks on login button........................................passed
+Then the user lands on the Welcome page.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Pet Store Website" name="Login to the Pet Store website with valid credentials 3" time="9.048">
+<system-out><![CDATA[Given the user launches the browser.........................................passed
+When the user open PetStore HomePage using the link.........................passed
+And the user enters valid "test2" and "test2"...............................passed
+Then the user clicks on login button........................................passed
+Then the user lands on the Welcome page.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Pet Store Website" name="Login to the Pet Store website with valid credentials 4" time="11.043">
+<system-out><![CDATA[Given the user launches the browser.........................................passed
+When the user open PetStore HomePage using the link.........................passed
+And the user enters valid "test3" and "test3"...............................passed
+Then the user clicks on login button........................................passed
+Then the user lands on the Welcome page.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Pet Store Website" name="Login to the Pet Store website with valid credentials 5" time="10.942">
+<system-out><![CDATA[Given the user launches the browser.........................................passed
+When the user open PetStore HomePage using the link.........................passed
+And the user enters valid "test4" and "test4"...............................passed
+Then the user clicks on login button........................................passed
+Then the user lands on the Welcome page.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>

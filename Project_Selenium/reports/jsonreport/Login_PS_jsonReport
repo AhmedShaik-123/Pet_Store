@@ -1,0 +1,467 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-12T11:11:24.006Z",
+        "line": 22,
+        "name": "Login to the Pet Store website with valid credentials",
+        "description": "",
+        "id": "pet-store-website;login-to-the-pet-store-website-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9689117400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user launches the browser",
+            "match": {
+              "location": "com.stepdefinitions.Logging_PetStore.the_user_launches_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 555417600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user open PetStore HomePage using the link",
+            "match": {
+              "location": "com.stepdefinitions.Logging_PetStore.the_user_open_PetStore_HomePage_using_the_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 329233500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user enters valid \"test\" and \"test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test",
+                  "offset": 23
+                },
+                {
+                  "val": "test",
+                  "offset": 34
+                }
+              ],
+              "location": "com.stepdefinitions.Logging_PetStore.the_user_enters_valid_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 829588800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user clicks on login button",
+            "match": {
+              "location": "com.stepdefinitions.Logging_PetStore.the_user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1910604400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user lands on the Welcome page",
+            "match": {
+              "location": "com.stepdefinitions.Logging_PetStore.the_user_lands_on_the_Welcome_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PetStore"
+          },
+          {
+            "name": "@TC_02_PetStore"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-12T11:11:37.540Z",
+        "line": 23,
+        "name": "Login to the Pet Store website with valid credentials",
+        "description": "",
+        "id": "pet-store-website;login-to-the-pet-store-website-with-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6851268800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user launches the browser",
+            "match": {
+              "location": "com.stepdefinitions.Logging_PetStore.the_user_launches_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 463311800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user open PetStore HomePage using the link",
+            "match": {
+              "location": "com.stepdefinitions.Logging_PetStore.the_user_open_PetStore_HomePage_using_the_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 285201600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user enters valid \"test1\" and \"test1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1",
+                  "offset": 23
+                },
+                {
+                  "val": "test1",
+                  "offset": 35
+                }
+              ],
+              "location": "com.stepdefinitions.Logging_PetStore.the_user_enters_valid_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 364282800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user clicks on login button",
+            "match": {
+              "location": "com.stepdefinitions.Logging_PetStore.the_user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1345127800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user lands on the Welcome page",
+            "match": {
+              "location": "com.stepdefinitions.Logging_PetStore.the_user_lands_on_the_Welcome_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PetStore"
+          },
+          {
+            "name": "@TC_02_PetStore"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-12T11:11:46.864Z",
+        "line": 24,
+        "name": "Login to the Pet Store website with valid credentials",
+        "description": "",
+        "id": "pet-store-website;login-to-the-pet-store-website-with-valid-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5935510800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user launches the browser",
+            "match": {
+              "location": "com.stepdefinitions.Logging_PetStore.the_user_launches_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 462330100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user open PetStore HomePage using the link",
+            "match": {
+              "location": "com.stepdefinitions.Logging_PetStore.the_user_open_PetStore_HomePage_using_the_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 292207500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user enters valid \"test2\" and \"test2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test2",
+                  "offset": 23
+                },
+                {
+                  "val": "test2",
+                  "offset": 35
+                }
+              ],
+              "location": "com.stepdefinitions.Logging_PetStore.the_user_enters_valid_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 960789700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user clicks on login button",
+            "match": {
+              "location": "com.stepdefinitions.Logging_PetStore.the_user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1389067800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user lands on the Welcome page",
+            "match": {
+              "location": "com.stepdefinitions.Logging_PetStore.the_user_lands_on_the_Welcome_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PetStore"
+          },
+          {
+            "name": "@TC_02_PetStore"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-12T11:11:55.927Z",
+        "line": 25,
+        "name": "Login to the Pet Store website with valid credentials",
+        "description": "",
+        "id": "pet-store-website;login-to-the-pet-store-website-with-valid-credentials;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5623507000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user launches the browser",
+            "match": {
+              "location": "com.stepdefinitions.Logging_PetStore.the_user_launches_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2698160300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user open PetStore HomePage using the link",
+            "match": {
+              "location": "com.stepdefinitions.Logging_PetStore.the_user_open_PetStore_HomePage_using_the_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 294208400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user enters valid \"test3\" and \"test3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test3",
+                  "offset": 23
+                },
+                {
+                  "val": "test3",
+                  "offset": 35
+                }
+              ],
+              "location": "com.stepdefinitions.Logging_PetStore.the_user_enters_valid_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 348247900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user clicks on login button",
+            "match": {
+              "location": "com.stepdefinitions.Logging_PetStore.the_user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2069534700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user lands on the Welcome page",
+            "match": {
+              "location": "com.stepdefinitions.Logging_PetStore.the_user_lands_on_the_Welcome_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PetStore"
+          },
+          {
+            "name": "@TC_02_PetStore"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-12T11:12:06.978Z",
+        "line": 26,
+        "name": "Login to the Pet Store website with valid credentials",
+        "description": "",
+        "id": "pet-store-website;login-to-the-pet-store-website-with-valid-credentials;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5375142400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user launches the browser",
+            "match": {
+              "location": "com.stepdefinitions.Logging_PetStore.the_user_launches_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 438312400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user open PetStore HomePage using the link",
+            "match": {
+              "location": "com.stepdefinitions.Logging_PetStore.the_user_open_PetStore_HomePage_using_the_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 281200000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user enters valid \"test4\" and \"test4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test4",
+                  "offset": 23
+                },
+                {
+                  "val": "test4",
+                  "offset": 35
+                }
+              ],
+              "location": "com.stepdefinitions.Logging_PetStore.the_user_enters_valid_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1570286100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user clicks on login button",
+            "match": {
+              "location": "com.stepdefinitions.Logging_PetStore.the_user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3267627800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user lands on the Welcome page",
+            "match": {
+              "location": "com.stepdefinitions.Logging_PetStore.the_user_lands_on_the_Welcome_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PetStore"
+          },
+          {
+            "name": "@TC_02_PetStore"
+          }
+        ]
+      }
+    ],
+    "name": "Pet Store Website",
+    "description": "",
+    "id": "pet-store-website",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/Feature_File/Test_Cases.feature",
+    "tags": [
+      {
+        "name": "@PetStore",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

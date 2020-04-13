@@ -1,0 +1,89 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-11T11:43:05.364Z",
+        "line": 52,
+        "name": "Search for a pet and update and then logout",
+        "description": "",
+        "id": "pet-store-website;search-for-a-pet-and-update-and-then-logout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15306298400,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I launch the browser",
+            "match": {
+              "location": "com.stepdefinitions.Updating_PetStore.i_launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2822039500,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I Search the pet without logging_in",
+            "match": {
+              "location": "com.stepdefinitions.Updating_PetStore.i_Search_the_pet_without_logging_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1096778800,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I click on a certain pet which lands on Shopping Cart",
+            "match": {
+              "location": "com.stepdefinitions.Updating_PetStore.i_click_on_a_certain_pet_which_lands_on_Shopping_Cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4256329800,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I click on update and click on return to menu and then quit the browser",
+            "match": {
+              "location": "com.stepdefinitions.Updating_PetStore.i_click_on_update_and_click_on_return_to_menu_and_then_quit_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PetStore"
+          },
+          {
+            "name": "@TC_06_PetStore"
+          }
+        ]
+      }
+    ],
+    "name": "Pet Store Website",
+    "description": "",
+    "id": "pet-store-website",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/Feature_File/Test_Cases.feature",
+    "tags": [
+      {
+        "name": "@PetStore",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 45,
+        "name": "Login and select a pet and add it to the cart and then logout",
+        "description": "",
+        "id": "pet-store-website;login-and-select-a-pet-and-add-it-to-the-cart-and-then-logout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9538539283,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user launches the browser",
+            "match": {
+              "location": "AddToCart_PetStore.user_launches_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2178371006,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user loggedin using valid credentials",
+            "match": {
+              "location": "AddToCart_PetStore.user_loggedin_using_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3289015488,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user search different types of pets and clicks on the specific pet",
+            "match": {
+              "location": "AddToCart_PetStore.user_search_different_types_of_pets_and_clicks_on_the_specific_pet()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70970665142,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user lands on the Shopping cart page",
+            "match": {
+              "location": "AddToCart_PetStore.user_lands_on_the_Shopping_cart_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 44,
+            "name": "@TC_05_PetStore"
+          }
+        ]
+      }
+    ],
+    "name": "Pet Store Website",
+    "description": "",
+    "id": "pet-store-website",
+    "keyword": "Feature",
+    "uri": "src/main/resources/Feature_File/Test_Cases.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@PetStore"
+      }
+    ]
+  }
+]

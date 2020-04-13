@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="16.116">
+<testcase classname="Pet Store Website" name="Automate help section" time="15.529">
+<system-out><![CDATA[Given I will launch the browser.............................................passed
+When I will launch the website..............................................passed
+And I will click on the help section........................................passed
+Then I will click on a specific issue and then quit.........................passed
+]]></system-out>
+</testcase>
+</testsuite>

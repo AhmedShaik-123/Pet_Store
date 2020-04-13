@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="11" time="179.910502">
+    <testcase classname="Pet Store Website" name="Register to the Pet Store website" time="41.205192">
+        <system-out>
+            <![CDATA[Given the user launch the browser...........................................passed
+When the user open the Pet Store Home page using the link...................passed
+And the user enters the details to register.................................passed
+Then the user clicks on register button.....................................passed
+Then the user lands on the Home page to signin..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Pet Store Website" name="Login to the Pet Store website with valid credentials" time="15.107971">
+        <system-out>
+            <![CDATA[Given the user launches the browser.........................................passed
+When the user open PetStore HomePage using the link.........................passed
+And the user enters valid "test" and "test".................................passed
+Then the user clicks on login button........................................passed
+Then the user lands on the Welcome page.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Pet Store Website" name="Login to the Pet Store website with valid credentials 2" time="15.194006">
+        <system-out>
+            <![CDATA[Given the user launches the browser.........................................passed
+When the user open PetStore HomePage using the link.........................passed
+And the user enters valid "test1" and "test1"...............................passed
+Then the user clicks on login button........................................passed
+Then the user lands on the Welcome page.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Pet Store Website" name="Login to the Pet Store website with valid credentials 3" time="12.677704">
+        <system-out>
+            <![CDATA[Given the user launches the browser.........................................passed
+When the user open PetStore HomePage using the link.........................passed
+And the user enters valid "test2" and "test2"...............................passed
+Then the user clicks on login button........................................passed
+Then the user lands on the Welcome page.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Pet Store Website" name="Login to the Pet Store website with valid credentials 4" time="13.0761">
+        <system-out>
+            <![CDATA[Given the user launches the browser.........................................passed
+When the user open PetStore HomePage using the link.........................passed
+And the user enters valid "test3" and "test3"...............................passed
+Then the user clicks on login button........................................passed
+Then the user lands on the Welcome page.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Pet Store Website" name="Login to the Pet Store website with valid credentials 5" time="14.751474">
+        <system-out>
+            <![CDATA[Given the user launches the browser.........................................passed
+When the user open PetStore HomePage using the link.........................passed
+And the user enters valid "test4" and "test4"...............................passed
+Then the user clicks on login button........................................passed
+Then the user lands on the Welcome page.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Pet Store Website" name="Login to the Pet Store website with invalid credentials" time="11.816059">
+        <system-out>
+            <![CDATA[Given the user will launch the browser......................................passed
+When the user open the Pet Store Home page through the link.................passed
+And the user enters invalid credentials.....................................passed
+Then the user will click on login button....................................passed
+Then it gives error message that the credentials are invalid................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Pet Store Website" name="Login and search for different pets" time="16.066506">
+        <system-out>
+            <![CDATA[Given the user will launches the browser....................................passed
+When the user loggedin using valid credentials..............................passed
+And the user search different types of pets.................................passed
+Then the user lands on the searched pets....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Pet Store Website" name="Login and select a pet and add it to the cart and then logout" time="16.859897">
+        <system-out>
+            <![CDATA[Given user launches the browser.............................................passed
+When user loggedin using valid credentials..................................passed
+And user search different types of pets and clicks on the specific pet......passed
+Then user lands on the Shopping cart page...................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Pet Store Website" name="Search for a pet and update and then logout" time="12.723756">
+        <system-out>
+            <![CDATA[Given I launch the browser..................................................passed
+When I Search the pet without logging_in....................................passed
+And I click on a certain pet which lands on Shopping Cart...................passed
+Then I click on update and click on return to menu and then quit the browser.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Pet Store Website" name="Automate help section" time="10.431837">
+        <system-out>
+            <![CDATA[Given I will launch the browser.............................................passed
+When I will launch the website..............................................passed
+And I will click on the help section........................................passed
+Then I will click on a specific issue and then quit.........................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

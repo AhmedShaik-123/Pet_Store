@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="32.997">
+<testcase classname="Pet Store Website" name="Register to the Pet Store website" time="32.419">
+<system-out><![CDATA[Given the user launch the browser...........................................passed
+When the user open the Pet Store Home page using the link...................passed
+And the user enters the details to register.................................passed
+Then the user clicks on register button.....................................passed
+Then the user lands on the Home page to signin..............................passed
+]]></system-out>
+</testcase>
+</testsuite>

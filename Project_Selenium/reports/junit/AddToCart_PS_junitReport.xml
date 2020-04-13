@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="85.976591">
+    <testcase classname="Pet Store Website" name="Login and select a pet and add it to the cart and then logout" time="85.976591">
+        <system-out>
+            <![CDATA[Given user launches the browser.............................................passed
+When user loggedin using valid credentials..................................passed
+And user search different types of pets and clicks on the specific pet......passed
+Then user lands on the Shopping cart page...................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

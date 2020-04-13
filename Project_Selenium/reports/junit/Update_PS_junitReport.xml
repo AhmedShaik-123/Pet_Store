@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="27.888">
+<testcase classname="Pet Store Website" name="Search for a pet and update and then logout" time="27.207">
+<system-out><![CDATA[Given I launch the browser..................................................passed
+When I Search the pet without logging_in....................................passed
+And I click on a certain pet which lands on Shopping Cart...................passed
+Then I click on update and click on return to menu and then quit the browser.passed
+]]></system-out>
+</testcase>
+</testsuite>
